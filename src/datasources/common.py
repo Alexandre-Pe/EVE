@@ -57,7 +57,7 @@ class VideoReader(object):
         if self.video_path.endswith('_eyes.mp4'):
             self.timestamps_path = video_path.replace('_eyes.mp4', '.timestamps.txt')
         elif self.video_path.endswith('_face.mp4'):
-            self.timestamps_path = video_path.replace('_eyes.mp4', '.timestamps.txt')
+            self.timestamps_path = video_path.replace('_face.mp4', '.timestamps.txt')
         elif self.video_path.endswith('.128x72.mp4'):
             self.timestamps_path = video_path.replace('.128x72.mp4', '.timestamps.txt')
         else:
